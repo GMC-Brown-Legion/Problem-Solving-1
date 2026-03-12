@@ -1,7 +1,7 @@
 # Problem-Solving-1
 
 ## Task
-# write an algorithm that read a sentence, which ends with a point, character by character, and to determine:
+write an algorithm that read a sentence, which ends with a point, character by character, and to determine:
 
 
 # Instructions
