@@ -1,0 +1,37 @@
+Algorithm SentenceCounter
+
+    Set length = 0
+    Set wordCount = 0
+    Set vowelCount = 0
+
+    Set isWord = false
+
+    Repeat
+        Read next character ch
+
+        length = length + 1
+
+        If ch is 'a' or 'e' or 'i' or 'o' or 'u' or
+           ch is 'A' or 'E' or 'I' or 'O' or 'U' Then
+            vowelCount = vowelCount + 1
+        End If
+
+        If ch is a space Then
+            isWord = false
+        Else If ch is '.' Then
+            Exit loop
+        Else
+            If isWord = false Then
+                wordCount = wordCount + 1
+                isWord = true
+            End If
+        End If
+
+    Until ch = '.'
+
+ 
+    Display "Number of characters: ", length
+    Display "Number of words: ", wordCount
+    Display "Number of vowels: ", vowelCount
+
+End Algorithm
