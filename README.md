@@ -14,3 +14,6 @@ The number of vowels in the sentence.
 Each character will be treated separately.
 The last character is the point.
 Use three variables as counters.
+
+# solution
+I have created three counters which are conditionally incremented. The order is character, vowel, word and lastly the period.
